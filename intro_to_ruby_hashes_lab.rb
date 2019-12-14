@@ -1,13 +1,16 @@
 def new_hash
   new_hash = Hash.new 
+
 end
 
 def my_hash
   my_hash = {:key => "value"}
+
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+ pioneer = {:name => "Grace Hopper"}
+ 
 end
 
 def id_generator
